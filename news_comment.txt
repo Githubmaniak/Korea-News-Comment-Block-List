@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 0.1
+! Version: 0.2
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -15,8 +15,10 @@ slownews.kr###comments
 n.news.naver.com###cbox_module
 m.news.nate.com###ifr_reple
 m.news.zum.com###zca_cmnt_module
+m.pressian.com###container > div.article_view > div.comment_wrap:nth-child(18)
 
 ! Desktop
 news.nate.com###articleViewArea > div.ifr_reple:nth-child(6)
 news.zum.com###zca_cmnt_module
 mk.co.kr###container > section.contents:last-child > div.news_detail_body_group:nth-child(3) > section.news_cnt_sec > div.min_inner:first-child > div.cmm_wrap:last-child
+pressian.com###container > div.inner > div.article_view:nth-child(6) > div.section.pr10:last-child > div.comment_wrap:nth-child(21)
