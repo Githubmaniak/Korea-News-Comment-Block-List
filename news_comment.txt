@@ -1,5 +1,10 @@
+[AdBlock Plus]
+! Title: Korea News Comment Blocklist
+! Version: 0.1
+! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
+
+! Mobile
 m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_group:nth-child(2) > section.news_cnt_sec > div.set_inner > div.cmm_wrap:last-child
-mk.co.kr###container > section.contents:last-child > div.news_detail_body_group:nth-child(3) > section.news_cnt_sec > div.min_inner:first-child > div.cmm_wrap:last-child
 hankyung.com###hk-comment-client
 joongang.co.kr###container > section.contents:last-child > article.article:first-child > div.article_footer:last-child > div.comment_wrap:nth-child(3)
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(4)
@@ -9,6 +14,9 @@ biz.chosun.com###fusion-app > div.article:first-child > div.layout--bg:nth-child
 slownews.kr###comments
 n.news.naver.com###cbox_module
 m.news.nate.com###ifr_reple
-news.nate.com###articleViewArea > div.ifr_reple:nth-child(6)
 m.news.zum.com###zca_cmnt_module
+
+! Desktop
+news.nate.com###articleViewArea > div.ifr_reple:nth-child(6)
 news.zum.com###zca_cmnt_module
+mk.co.kr###container > section.contents:last-child > div.news_detail_body_group:nth-child(3) > section.news_cnt_sec > div.min_inner:first-child > div.cmm_wrap:last-child
