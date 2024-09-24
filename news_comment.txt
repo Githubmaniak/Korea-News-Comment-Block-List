@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 0.2
+! Version: 0.3
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -16,9 +16,18 @@ n.news.naver.com###cbox_module
 m.news.nate.com###ifr_reple
 m.news.zum.com###zca_cmnt_module
 m.pressian.com###container > div.article_view > div.comment_wrap:nth-child(18)
+m.inews24.com###comment-container
+digitaltoday.co.kr###comment
+news1.kr###__next > div.safe_area:first-child > header.main-header:nth-child(2) > div.sticky-bar.border-bottom-1:last-child > div.container:first-child > nav.navbar.navbar-expand-lg.p-0 > div.container-fluid.gx-0 > section.d-sm-block.d-md-none.d-lg-none:last-child > button.btn-none.mr-20:nth-child(2)
+m.hankookilbo.com##div.wrap.improve:nth-child(12) > div.container.imp-end:last-child > div.comment-area:nth-child(11)
+inews24.com###comment-container
+hankookilbo.com##div.wrap.imp-end:nth-child(14) > div.container.end-uni:first-child > div.comment-area:nth-child(10) > div.inner
 
 ! Desktop
 news.nate.com###articleViewArea > div.ifr_reple:nth-child(6)
 news.zum.com###zca_cmnt_module
 mk.co.kr###container > section.contents:last-child > div.news_detail_body_group:nth-child(3) > section.news_cnt_sec > div.min_inner:first-child > div.cmm_wrap:last-child
 pressian.com###container > div.inner > div.article_view:nth-child(6) > div.section.pr10:last-child > div.comment_wrap:nth-child(21)
+chosun.com###div_comment
+joongang.co.kr###container > div.sticky_menu.re.default.fixed:first-child > div.body:first-child > button.btn_comment:nth-child(3)
+donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(6)
