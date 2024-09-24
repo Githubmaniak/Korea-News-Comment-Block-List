@@ -1,4 +1,4 @@
-[AdBlock Plus]
+[AdGuard]
 ! Title: Korea News Comment Blocklist
 ! Version: 0.1
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
