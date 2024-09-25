@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 0.5
+! Version: 0.6
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -8,6 +8,7 @@ m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_gr
 hankyung.com###hk-comment-client
 joongang.co.kr###container > section.contents:last-child > article.article:first-child > div.article_footer:last-child > div.comment_wrap:nth-child(3)
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(4)
+donga.com###contents > header.view_head:nth-child(2) > div.inner > section.head_group > div.view_head_setting:last-child > div.custom_set_wrap.is_fix:nth-child(2) > a.btn_reply:nth-child(6)
 chosun.com###fusion-app > div.article.\|:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8-1.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-top-xxl-3.width--100.box--pad-top-xs.box--bg-undefined.box--border.box--border-black.box--border-xs.box--border-horizontal.box--border-horizontal-top.box--hidden-lg.box--hidden-md:nth-child(20)
 bloter.net###comment
 biz.chosun.com###fusion-app > div.article:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-none.width--100.box--pad-top-md.box--bg-undefined.box--hidden-lg.box--hidden-md:nth-child(18)
