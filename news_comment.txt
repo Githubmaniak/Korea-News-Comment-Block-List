@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 0.7
+! Version: 0.8
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -18,10 +18,11 @@ m.news.nate.com###ifr_reple
 m.news.zum.com###zca_cmnt_module
 m.pressian.com###container > div.article_view > div.comment_wrap:nth-child(18)
 m.inews24.com###comment-container
+m.inews24.com##main:nth-child(10) > form.talkplus:nth-child(13) > ul.talkplus:last-child
+m.inews24.com##main:nth-child(10) > form.talkplus:nth-child(13) > h4.talkplus:nth-child(3)
 digitaltoday.co.kr###comment
 news1.kr###__next > div.safe_area:first-child > header.main-header:nth-child(2) > div.sticky-bar.border-bottom-1:last-child > div.container:first-child > nav.navbar.navbar-expand-lg.p-0 > div.container-fluid.gx-0 > section.d-sm-block.d-md-none.d-lg-none:last-child > button.btn-none.mr-20:nth-child(2)
 m.hankookilbo.com##div.wrap.improve:nth-child(12) > div.container.imp-end:last-child > div.comment-area:nth-child(11)
-inews24.com###comment-container
 hankookilbo.com##div.wrap.imp-end:nth-child(14) > div.container.end-uni:first-child > div.comment-area:nth-child(10) > div.inner
 imnews.imbc.com###commentBox
 m.yna.co.kr##div.wrapper.layout02:nth-child(4) > div.wrap-header02.hide-appview:nth-child(2) > header.header-type04:first-child > div.area:nth-child(2) > a.btn-type03.btn-cmt01.btn-comment:last-child
@@ -30,6 +31,12 @@ m.yna.co.kr###articleWrap > header.title-article01:first-child > div.option-box:
 m.mt.co.kr###article > div.function:nth-child(3)
 m.mt.co.kr###wrap > button.mtg-comment-button-fixed:last-child
 m.mt.co.kr###article > div.mtg-comment
+m.businesspost.co.kr###detail > article.detailwrapper:nth-child(2) > section.postReply:last-child > div.repWrite:first-child
+itworld.co.kr###section_comment > div.comment.mt-0:first-child
+tokenpost.kr###viewPage > div.viewWrap:nth-child(2) > div.view_left_item > div.article_bottom_section:nth-child(4) > div.article_stamp_wrap:nth-child(4) > div.article_stamp_btns:last-child > div.stamp_item.stamp_comment.btn_stamp_comment:first-child
+tokenpost.kr###section_comment > div.section_comment_wrap
+tokenpost.kr###viewLocation > div.view_title_bottom:last-child > div.view_number_bottom_right:last-child > div.view_number_bottom_right_comment.btnFocusComment:first-child
+hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(3) > div.ArticleDetail_footerComment__aOVr_:last-child
 ||livere.com^
 
 ! Desktop
@@ -42,3 +49,7 @@ joongang.co.kr###container > div.sticky_menu.re.default.fixed:first-child > div.
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(6)
 news.mt.co.kr###view_wrapc01-scroll-in > div.vc_top:first-child > div.info > div.fnc:last-child > ul.group > li.bundle:last-child > button.mtg-comment-button
 news.mt.co.kr###view_wrapc01-scroll-in > div.mtg-comment:nth-child
+inews24.com###comment-container
+inews24.com##main.view:nth-child(8) > container.view > section.view:first-child > form.talkplus:nth-child(11) > ul.talkplus:last-child
+inews24.com##main.view:nth-child(8) > container.view > section.view:first-child > form.talkplus:nth-child(11) > h4.talkplus:nth-child(3)
+businesspost.co.kr###center-box > div.foot_box:last-child > div.inner2
