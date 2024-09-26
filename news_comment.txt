@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 0.6
+! Version: 0.7
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -27,6 +27,9 @@ imnews.imbc.com###commentBox
 m.yna.co.kr##div.wrapper.layout02:nth-child(4) > div.wrap-header02.hide-appview:nth-child(2) > header.header-type04:first-child > div.area:nth-child(2) > a.btn-type03.btn-cmt01.btn-comment:last-child
 m.yna.co.kr###articleWrap > section.story-info:nth-child(5) > div.info-area:last-child > a.btn-type03.btn-cmt01.btn-comment:last-child
 m.yna.co.kr###articleWrap > header.title-article01:first-child > div.option-box:last-child > div.util-con:last-child > a.btn-type03.btn-cmt01.btn-comment:last-child
+m.mt.co.kr###article > div.function:nth-child(3)
+m.mt.co.kr###wrap > button.mtg-comment-button-fixed:last-child
+m.mt.co.kr###article > div.mtg-comment
 ||livere.com^
 
 ! Desktop
@@ -37,3 +40,5 @@ pressian.com###container > div.inner > div.article_view:nth-child(6) > div.secti
 chosun.com###div_comment
 joongang.co.kr###container > div.sticky_menu.re.default.fixed:first-child > div.body:first-child > button.btn_comment:nth-child(3)
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(6)
+news.mt.co.kr###view_wrapc01-scroll-in > div.vc_top:first-child > div.info > div.fnc:last-child > ul.group > li.bundle:last-child > button.mtg-comment-button
+news.mt.co.kr###view_wrapc01-scroll-in > div.mtg-comment:nth-child
