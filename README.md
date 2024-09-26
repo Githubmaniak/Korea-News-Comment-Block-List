@@ -12,4 +12,4 @@ https://raw.githubusercontent.com/Githubmaniak/Korea-News-Comment-Block-List/ref
 
 해당 목록에 없는 웹사이트는 Issues 탭에 요청하시면 빠른시일이 아니더라도 반영해드리겠습니다.
 
->P.S HaGeZi의 DNS 차단목록은 라이브리의 도메인을 차단하여 일부 언론사 웹사이트의 댓글 목록또한 표시되지 않게됩니다.
+>P.S HaGeZi의 DNS 차단목록은 라이브리의 도메인을 차단하여 일부 언론사 웹사이트의 댓글 목록또한 표시되지 않게됩니다.그래서 해당 필터를 설치하지 않으신 분들을 위해 라이브리의 도메인도 추가하였습니다.
