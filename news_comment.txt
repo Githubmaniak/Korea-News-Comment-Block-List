@@ -1,12 +1,13 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 0.9
+! Version: 1.0
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
 m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_group:nth-child(2) > section.news_cnt_sec > div.set_inner > div.cmm_wrap:last-child
 hankyung.com###hk-comment-client
 joongang.co.kr###container > section.contents:last-child > article.article:first-child > div.article_footer:last-child > div.comment_wrap:nth-child(3)
+joongang.co.kr###container > section.contents:last-child > article.article.plus:nth-child(11) > div.article_footer:last-child > div.comment_wrap:nth-child(4)
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(4)
 donga.com###contents > header.view_head:nth-child(2) > div.inner > section.head_group > div.view_head_setting:last-child > div.custom_set_wrap.is_fix:nth-child(2) > a.btn_reply:nth-child(6)
 chosun.com###fusion-app > div.article.\|:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8-1.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-top-xxl-3.width--100.box--pad-top-xs.box--bg-undefined.box--border.box--border-black.box--border-xs.box--border-horizontal.box--border-horizontal-top.box--hidden-lg.box--hidden-md:nth-child(20)
@@ -38,6 +39,18 @@ tokenpost.kr###section_comment > div.section_comment_wrap
 tokenpost.kr###viewLocation > div.view_title_bottom:last-child > div.view_number_bottom_right:last-child > div.view_number_bottom_right_comment.btnFocusComment:first-child
 hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(3) > div.ArticleDetail_footerComment__aOVr_:last-child
 it.chosun.com###comment
+asiatime.co.kr##div.container:nth-child(8) > div.list_contents_container.article_container_layout:last-child > div.section_left_container:first-child > div.layout_sortable > div.reply_txt_area:nth-child(13)
+m.starnewskorea.com###article > div.function:nth-child(2) > div.area:last-child > ul.sc_bx3:first-child > li.bundle:first-child
+m.starnewskorea.com##div.right-floating-area:nth-child(3) > div.mtg-comment-button-fixed:first-child
+starnewskorea.com###content > div.fbox.cw651:first-child > div.thum_article > div.article_area > div.comment:nth-child(22)
+news.kbs.co.kr###reply
+yozm.wishket.com##div.layout:nth-child(8) > div.container-wrapper:nth-child(7) > div.content-container-wrapper:first-child > div.content-container:first-child > div.comment-area:last-child
+m.g-enews.com##div.mwrap:nth-child(4) > div.liveReClsPosi:nth-child(8)
+cm.asiae.co.kr###container > div.section_wrap:first-child > div.section_main:first-child > div.view_article > div.as_mj_news:nth-child(5)
+m.starnewskorea.com###content > section.bxcn4:nth-child(4) > div.comment:nth-child(2)
+sisajournal-e.com###comment
+medicaltimes.com###container > section.replyWrap:last-child
+fortunekorea.co.kr###comment
 ||livere.com^
 
 ! Desktop
@@ -54,3 +67,5 @@ inews24.com###comment-container
 inews24.com##main.view:nth-child(8) > container.view > section.view:first-child > form.talkplus:nth-child(11) > ul.talkplus:last-child
 inews24.com##main.view:nth-child(8) > container.view > section.view:first-child > form.talkplus:nth-child(11) > h4.talkplus:nth-child(3)
 businesspost.co.kr###center-box > div.foot_box:last-child > div.inner2
+medicaltimes.com###container > div.viewWrap.clearfix:last-child > section.viewContWrap:first-child > div.commentWrap:last-child
+g-enews.com##div.vcon:nth-child(12) > div.vcon_in:last-child > div.v_lt:nth-child(2) > div.vincon1 > div.mi_lt:first-child > div.liveReClsPosi:nth-child(3)
