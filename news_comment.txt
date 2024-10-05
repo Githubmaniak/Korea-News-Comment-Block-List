@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 1.4
+! Version: 1.5
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -58,6 +58,9 @@ mydaily.co.kr###container > div.inner:nth-child(4) > div.section:nth-child(3) > 
 mydaily.co.kr###container > div.inner:nth-child(7) > div.section:nth-child(4) > div.comment_form_wrap:nth-child(12)
 kr.investing.com###__next > div.md\:relative.md\:bg-white:last-child > div.relative.flex:nth-child(2) > div.grid.flex-1.grid-cols-1.px-4.pt-5.font-sans-v2.text-\[\#232526\].antialiased.xl\:container.sm\:px-6.md\:grid-cols-\[1fr_72px\].md\:gap-6.md\:px-7.md\:pt-10.md2\:grid-cols-\[1fr_420px\].md2\:gap-8.md2\:px-8.xl\:mx-auto.xl\:gap-10.xl\:px-10:nth-child(2) > div.min-w-0:first-child > div:first-child > div:first-child > div.relative.flex.flex-col:first-child > div.mb-3.cursor-text.rounded.border.border-\[\#D9DCDF\].p-3\.5.shadow-commentBox:nth-child(15)
 womancs.co.kr###comment
+mediatoday.co.kr###comment
+donga.com###contents > header.view_head:nth-child(2) > div.inner > section.head_group > div.view_head_setting:last-child > div.feedback_info_wrap:first-child > a:first-child > dl.re_comment > dt:first-child
+hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(2) > div.ArticleDetail_footerComment__aOVr_:last-child
 ||livere.com^
 ||disqus.com^
 
