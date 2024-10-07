@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 1.5
+! Version: 1.7
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -61,6 +61,9 @@ womancs.co.kr###comment
 mediatoday.co.kr###comment
 donga.com###contents > header.view_head:nth-child(2) > div.inner > section.head_group > div.view_head_setting:last-child > div.feedback_info_wrap:first-child > a:first-child > dl.re_comment > dt:first-child
 hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(2) > div.ArticleDetail_footerComment__aOVr_:last-child
+m.ilyo.co.kr###comments
+aitimes.com###reply
+mydaily.co.kr###container > div.inner:nth-child(4) > div.section:nth-child(3) > div.comment_form_wrap:nth-child(7)
 ||livere.com^
 ||disqus.com^
 
@@ -83,3 +86,4 @@ g-enews.com##div.vcon:nth-child(12) > div.vcon_in:last-child > div.v_lt:nth-chil
 news.tf.co.kr###sudaComment2 > div.tfReply:first-child
 starnewskorea.com###content > div.fbox.cw651:first-child > div.thum_article > div.article_area > div.comment:nth-child(22)
 hankookilbo.com##div.wrap.imp-end:nth-child(14) > div.container.end-uni:first-child > div.comment-area:nth-child(10) > div.inner
+ilyo.co.kr###comments
