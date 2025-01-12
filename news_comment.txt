@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 2.4
+! Version: 2.5
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -72,7 +72,7 @@ weekly.chosun.com###comment
 m.skyedaily.com##div.mainfirstlist:nth-child(18)
 m.news.nate.com###contents > div.responsive_wrap:nth-child(3) > section.rwd_left:first-child > div.news_view > header:nth-child(2) > div.view_tools_wrap:last-child > ul.cmt_count:first-child > li:first-child > a
 v.daum.net###mArticle > div > div.head_view:first-child > div.util_wrap:last-child > a.btn_ttalk:first-child
-v.daum.net###kakaoContent > aside.main-etc:last-child > div.ttalk_view:nth-child(4) > div.inner_ttalk
+v.daum.net###kakaoContent > aside.main-etc:last-child > div.ttalk_view:nth-child(5)
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
