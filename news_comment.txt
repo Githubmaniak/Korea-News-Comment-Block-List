@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 2.8
+! Version: 2.9
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -87,6 +87,7 @@ m.ohmynews.com###article > div.article_header:first-child > div.buttons:last-chi
 m.ohmynews.com###ctl00_dvWrap > div.sticky_bar.clearfx:first-child > ul.state.clearfx:last-child > li:nth-child(2)
 m.skyedaily.com##div.mainfirstlist:nth-child(17) > div:nth-child(4)
 m.skyedaily.com##div.mainfirstlist:nth-child(22) > div:nth-child(4)
+m.ohmynews.com###article > div.article_btns:nth-child(3) > div.arc-bottom-wrap > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -126,3 +127,11 @@ m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.container.imp-end:last-c
 m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.improve-header.no-top:first-child > div.top-bar:first-child > div.actions:last-child > button.icon-btn-comment:nth-child(3)
 nocutnews.co.kr###reply > a.reply_b
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
+ohmynews.com###article > div.article_header:first-child > div.buttons:last-child > div.button_left > a.btn_reply:nth-child(2)
+ohmynews.com###ctl00_dvWrap > div.sticky_bar.clearfx:first-child > ul.state.clearfx:last-child > li:nth-child(2) > a.btn_reply
+ohmynews.com###article > div.article_btns:nth-child(3) > div.arc-bottom-wrap > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
+ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
+ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(4) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
+ohmynews.com###news_wrap > div.gnb-wrap.s-news.s-atc.scroll-nav:nth-child(2) > div.lnb-wrap:last-child > div.gnb-article-wrap.clearfx:last-child > div.right-box:last-child > ul.state-list:last-child > li:nth-child(2) > a.reply
+ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(4) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
+ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(5) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
