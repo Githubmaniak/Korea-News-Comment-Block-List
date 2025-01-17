@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 2.7
+! Version: 2.8
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -82,6 +82,11 @@ donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nt
 m.inews24.com###joynewsView > div.inews-view:nth-child(3) > button.inews-view.comment:nth-child(2)
 news1.kr###__next > div.safe_area:first-child > header.main-header:nth-child(2) > div.sticky-bar.border-bottom-1:last-child > div.container:first-child > nav.navbar.navbar-expand-lg.p-0 > div.container-fluid.gx-0 > section.d-sm-block.d-md-block.d-lg-none:last-child > button.btn-none.mr-20:nth-child(2)
 m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.container.imp-end:last-child > div.end-top:nth-child(2) > div.inn:last-child > div.info:last-child > div.tool-bar:last-child > div.btn-like-all-wrap > button.btn-comment:last-child
+m.nocutnews.co.kr###reply
+m.ohmynews.com###article > div.article_header:first-child > div.buttons:last-child > div.button_left > a.btn_reply:nth-child(2)
+m.ohmynews.com###ctl00_dvWrap > div.sticky_bar.clearfx:first-child > ul.state.clearfx:last-child > li:nth-child(2)
+m.skyedaily.com##div.mainfirstlist:nth-child(17) > div:nth-child(4)
+m.skyedaily.com##div.mainfirstlist:nth-child(22) > div:nth-child(4)
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -119,3 +124,5 @@ hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.en
 hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.comment-area:nth-child(10) > div.inner
 m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.container.imp-end:last-child > div.comment-area:nth-child(11)
 m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.improve-header.no-top:first-child > div.top-bar:first-child > div.actions:last-child > button.icon-btn-comment:nth-child(3)
+nocutnews.co.kr###reply > a.reply_b
+ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
