@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 2.9
+! Version: 3.0
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -88,6 +88,10 @@ m.ohmynews.com###ctl00_dvWrap > div.sticky_bar.clearfx:first-child > ul.state.cl
 m.skyedaily.com##div.mainfirstlist:nth-child(17) > div:nth-child(4)
 m.skyedaily.com##div.mainfirstlist:nth-child(22) > div:nth-child(4)
 m.ohmynews.com###article > div.article_btns:nth-child(3) > div.arc-bottom-wrap > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.e1ecreks0.MuiBox-root.my-15wfs9c:nth-child(2) > div.MuiBox-root.my-sg6rbe > div.e1ecreks0.MuiBox-root.my-10zyal1 > div.e1ecreks0.MuiBox-root.my-1hxzilu:last-child > div.e1ecreks0.MuiBox-root.my-1unr3vv:last-child > div.e1ecreks0.MuiBox-root.my-10702ep > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-i7nsei:first-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(4) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.MuiBox-root.my-sg6rbe:last-child > div.splitted-wrapper.e1ecreks0.MuiBox-root.my-x9zk7d > div.e1ecreks0.MuiBox-root.my-1aqld4h:first-child > div.MuiBox-root.my-0 > div.e1ecreks0.MuiBox-root.my-munjf > div.MuiBox-root.my-17748ob:nth-child(4)
+m.khan.co.kr###header > div.wrap_art_top_header > div.wrap_util:nth-child(9) > div.box_menu_right:last-child > a.link_corp.btn_reply.topbarRightMenu:first-child
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
