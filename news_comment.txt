@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 3.0
+! Version: 3.1
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -92,6 +92,9 @@ news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-ch
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(4) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.MuiBox-root.my-sg6rbe:last-child > div.splitted-wrapper.e1ecreks0.MuiBox-root.my-x9zk7d > div.e1ecreks0.MuiBox-root.my-1aqld4h:first-child > div.MuiBox-root.my-0 > div.e1ecreks0.MuiBox-root.my-munjf > div.MuiBox-root.my-17748ob:nth-child(4)
 m.khan.co.kr###header > div.wrap_art_top_header > div.wrap_util:nth-child(9) > div.box_menu_right:last-child > a.link_corp.btn_reply.topbarRightMenu:first-child
+m.amn.kr###reply_src > div:last-child
+m.mk.co.kr##div.wrapper.page_down:nth-child(5) > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:last-child > div.control_item_frame:nth-child(6)
+hankyung.com###container > div.inner:last-child > article.article-wrap:first-child > div.utility-wrap.login_need:nth-child(4) > div.utility > div.tools:first-child > button.tool.tool-comment.not_personal_service:nth-child(3)
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -139,3 +142,4 @@ ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child
 ohmynews.com###news_wrap > div.gnb-wrap.s-news.s-atc.scroll-nav:nth-child(2) > div.lnb-wrap:last-child > div.gnb-article-wrap.clearfx:last-child > div.right-box:last-child > ul.state-list:last-child > li:nth-child(2) > a.reply
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(4) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(5) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
+amn.kr###reader_view_skin4
