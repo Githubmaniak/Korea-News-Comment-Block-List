@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 3.1
+! Version: 3.2
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -95,6 +95,16 @@ m.khan.co.kr###header > div.wrap_art_top_header > div.wrap_util:nth-child(9) > d
 m.amn.kr###reply_src > div:last-child
 m.mk.co.kr##div.wrapper.page_down:nth-child(5) > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:last-child > div.control_item_frame:nth-child(6)
 hankyung.com###container > div.inner:last-child > article.article-wrap:first-child > div.utility-wrap.login_need:nth-child(4) > div.utility > div.tools:first-child > button.tool.tool-comment.not_personal_service:nth-child(3)
+m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.container.imp-end:last-child > div.comment-area:nth-child(11)
+m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.improve-header.no-top:first-child > div.top-bar:first-child > div.actions:last-child > button.icon-btn-comment:nth-child(3)
+mediaus.co.kr###comment
+mediaus.co.kr###article-view > div.wrapper > header.article-view-header:nth-child(4) > div.info-group:last-child > article.item:first-child > ul.infomation > li:last-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.MuiBox-root.my-sg6rbe:last-child > div.splitted-wrapper.e1ecreks0.MuiBox-root.my-x9zk7d > div.e1ecreks0.MuiBox-root.my-1aqld4h:first-child > div.MuiBox-root.my-0 > div.e1ecreks0.MuiBox-root.my-munjf > div.MuiBox-root.my-17748ob:nth-child(3)
+kbanker.co.kr###comment
+headlinejeju.co.kr###reply
+imnews.imbc.com###content > div.wrap_view > section.wrap_article:nth-child(2) > article.cont_left:first-child > div.wrap_title:first-child > div.ui_article:last-child > div.ui_link:last-child > a.comment:nth-child(2)
+imnews.imbc.com###content > div.wrap_view > section.wrap_article:nth-child(2) > article.cont_left:first-child > div.section_mid:nth-child(3) > div.ui_link:last-child > a.comment:first-child
+m.newsprime.co.kr###wf-form
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -130,8 +140,6 @@ inews24.com##main.view:nth-child(7) > container.view > section.view:first-child 
 hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.end-top:nth-child(8) > div.innerwrap:last-child > div.col-main > div.tool-bar:last-child
 hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.end-body:nth-child(9) > div.innerwrap > section.side-tool-box-pnl:nth-child(5) > ul.side-tool-grp:first-child > li.item.type2:last-child
 hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.comment-area:nth-child(10) > div.inner
-m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.container.imp-end:last-child > div.comment-area:nth-child(11)
-m.hankookilbo.com##div.wrap.improve:nth-child(13) > div.improve-header.no-top:first-child > div.top-bar:first-child > div.actions:last-child > button.icon-btn-comment:nth-child(3)
 nocutnews.co.kr###reply > a.reply_b
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###article > div.article_header:first-child > div.buttons:last-child > div.button_left > a.btn_reply:nth-child(2)
@@ -143,3 +151,4 @@ ohmynews.com###news_wrap > div.gnb-wrap.s-news.s-atc.scroll-nav:nth-child(2) > d
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(4) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(5) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
 amn.kr###reader_view_skin4
+newsprime.co.kr###commentPane
