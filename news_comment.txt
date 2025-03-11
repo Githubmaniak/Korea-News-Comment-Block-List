@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 3.8
+! Version: 3.9
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -89,6 +89,9 @@ m.ohmynews.com###article > div.article_btns:nth-child(3) > div.arc-bottom-wrap >
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.e1ecreks0.MuiBox-root.my-15wfs9c:nth-child(2) > div.MuiBox-root.my-sg6rbe > div.e1ecreks0.MuiBox-root.my-10zyal1 > div.e1ecreks0.MuiBox-root.my-1hxzilu:last-child > div.e1ecreks0.MuiBox-root.my-1unr3vv:last-child > div.e1ecreks0.MuiBox-root.my-10702ep > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-i7nsei:first-child
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(4) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div > div.MuiBox-root.my-sg6rbe:last-child > div.splitted-wrapper.e1ecreks0.MuiBox-root.my-x9zk7d > div.e1ecreks0.MuiBox-root.my-1aqld4h:first-child > div.MuiBox-root.my-0 > div.e1ecreks0.MuiBox-root.my-munjf > div.MuiBox-root.my-17748ob:nth-child(4)
+news.jtbc.co.kr##.comment.comment--NEWS
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(3) > div > div > div.e1ecreks0.MuiBox-root.my-15wfs9c:nth-child(2) > div.MuiBox-root.my-sg6rbe > div.e1ecreks0.MuiBox-root.my-10zyal1 > div.e1ecreks0.MuiBox-root.my-1hxzilu:last-child > div.e1ecreks0.MuiBox-root.my-1unr3vv:last-child > div.e1ecreks0.MuiBox-root.my-10702ep > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-i7nsei:first-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(3) > div > div > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(4) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
 m.khan.co.kr###header > div.wrap_art_top_header > div.wrap_util:nth-child(9) > div.box_menu_right:last-child > a.link_corp.btn_reply.topbarRightMenu:first-child
 m.amn.kr###reply_src > div:last-child
 m.mk.co.kr##div.wrapper.page_down:nth-child(5) > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:last-child > div.control_item_frame:nth-child(6)
