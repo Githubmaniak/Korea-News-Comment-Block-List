@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 3.9
+! Version: 4.0
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -28,9 +28,8 @@ digitaltoday.co.kr###comment
 news1.kr###__next > div.safe_area:first-child > header.main-header:nth-child(2) > div.sticky-bar.border-bottom-1:last-child > div.container:first-child > nav.navbar.navbar-expand-lg.p-0 > div.container-fluid.gx-0 > section.d-sm-block.d-md-none.d-lg-none:last-child > button.btn-none.mr-20:nth-child(2)
 m.hankookilbo.com##div.wrap.improve:nth-child(12) > div.container.imp-end:last-child > div.comment-area:nth-child(11)
 imnews.imbc.com###commentBox
-m.yna.co.kr##div.wrapper.layout02:nth-child(4) > div.wrap-header02.hide-appview:nth-child(2) > header.header-type04:first-child > div.area:nth-child(2) > a.btn-type03.btn-cmt01.btn-comment:last-child
-m.yna.co.kr###articleWrap > section.story-info:nth-child(5) > div.info-area:last-child > a.btn-type03.btn-cmt01.btn-comment:last-child
-m.yna.co.kr###articleWrap > header.title-article01:first-child > div.option-box:last-child > div.util-con:last-child > a.btn-type03.btn-cmt01.btn-comment:last-child
+yna.co.kr##div.wrapper:nth-child(2) > div.wrap-header22.hide-appview:nth-child(4) > div.nav-type12.fixed-navigation02 > div.option-zone:nth-child(4) > div.optionbox02 > button.btn-type001.cmt01:nth-child(3)
+yna.co.kr###articleWrap > div.keyword-zone:nth-child(2) > button.btn-type422.cmt01:last-child
 m.mt.co.kr###article > div.function:nth-child(3)
 m.mt.co.kr###wrap > button.mtg-comment-button-fixed:last-child
 m.mt.co.kr###article > div.mtg-comment
