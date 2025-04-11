@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 4.1
+! Version: 4.2
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -120,6 +120,8 @@ m.hankookilbo.com##.btn-goto-comment:last-child
 safetimes.co.kr###comment
 m.munhwa.com##.vh_btn.reply_btn
 m.munhwa.com##.component.card.component_reply
+m.starnewskorea.com##.sn-u9z52a0.sn-u9z52a2.sn-14m5k2r6
+m.starnewskorea.com###article-comment
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
