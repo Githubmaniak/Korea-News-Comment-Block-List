@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 4.4
+! Version: 4.5
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -116,15 +116,21 @@ hani.co.kr###__next > div.Layout_container__wF_eP > div.Layout_wrapper__r6LQ7:nt
 hani.co.kr###__next > div.Layout_container__wF_eP > div.Layout_wrapper__r6LQ7:nth-child(2) > div.ArticleToolbarMobile_header__ZhNbT:nth-child(3) > div > ul.ArticleToolbarMobile_list__8Pap5 > li.ArticleToolbarMobile_item__8zIUK:first-child
 m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_group:nth-child(2) > section.news_cnt_sec > div.set_inner > header.sec_head:first-child > div.news_cnt_info_wrap.type_name_list > div.news_write_info_group > div.news_control_group.right_btns.newbtnwrapper:last-child > div.control_item_frame:nth-child(4)
 m.mk.co.kr##div.wrapper.page_down:nth-child(5) > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:last-child > div.control_item_frame:nth-child(5)
+m.mk.co.kr##div.wrapper.page_down:last-child > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:nth-child(2) > div.control_item_frame:nth-child(4)
 m.hankookilbo.com##.btn-goto-comment:last-child
 safetimes.co.kr###comment
 m.munhwa.com##.vh_btn.reply_btn
 m.munhwa.com##.component.card.component_reply
+munhwa.com##.comment-wrap
+munhwa.com##.sticky-comment
 m.starnewskorea.com##.sn-u9z52a0.sn-u9z52a2.sn-14m5k2r6
 m.starnewskorea.com###article-comment
 dongpojournal.com###comment
 khan.co.kr##.reply
 khan.co.kr###reply
+kormedi.com###primary > div.cs-entry__wrap:first-child > div.cs-entry__container > div.cs-entry__content-wrap > div.entry-content-after:last-child > div.rp_content_wrap:nth-child(6)
+kormedi.com###primary > div.cs-entry__wrap:first-child > div.cs-entry__container > div.cs-entry__content-wrap > div.entry-content-after:last-child > div.rp_content_wrap:nth-child(7)
+
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
