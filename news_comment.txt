@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 4.7
+! Version: 4.8
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -9,7 +9,8 @@ hankyung.com###hk-comment-client
 joongang.co.kr##.comment_wrap
 joongang.co.kr##.btn_comment
 donga.com##.comment_ui
-donga.com###.btn_reply
+donga.com##.btn_reply
+donga.com###contents > header.view_head:nth-child(2) > div.inner > section.head_group > div.view_head_setting:last-child > div.feedback_info_wrap:first-child > a:first-child > dl.re_comment > dt:first-child
 chosun.com###fusion-app > div.article.\|:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8-1.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-top-xxl-3.width--100.box--pad-top-xs.box--bg-undefined.box--border.box--border-black.box--border-xs.box--border-horizontal.box--border-horizontal-top.box--hidden-lg.box--hidden-md:nth-child(20)
 bloter.net###comment
 biz.chosun.com###fusion-app > div.article:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-none.width--100.box--pad-top-md.box--bg-undefined.box--hidden-lg.box--hidden-md:nth-child(18)
@@ -57,7 +58,6 @@ mydaily.co.kr###container > div.inner:nth-child(7) > div.section:nth-child(4) > 
 kr.investing.com###__next > div.md\:relative.md\:bg-white:last-child > div.relative.flex:nth-child(2) > div.grid.flex-1.grid-cols-1.px-4.pt-5.font-sans-v2.text-\[\#232526\].antialiased.xl\:container.sm\:px-6.md\:grid-cols-\[1fr_72px\].md\:gap-6.md\:px-7.md\:pt-10.md2\:grid-cols-\[1fr_420px\].md2\:gap-8.md2\:px-8.xl\:mx-auto.xl\:gap-10.xl\:px-10:nth-child(2) > div.min-w-0:first-child > div:first-child > div:first-child > div.relative.flex.flex-col:first-child > div.mb-3.cursor-text.rounded.border.border-\[\#D9DCDF\].p-3\.5.shadow-commentBox:nth-child(15)
 womancs.co.kr###comment
 mediatoday.co.kr###comment
-donga.com###contents > header.view_head:nth-child(2) > div.inner > section.head_group > div.view_head_setting:last-child > div.feedback_info_wrap:first-child > a:first-child > dl.re_comment > dt:first-child
 hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(2) > div.ArticleDetail_footerComment__aOVr_:last-child
 m.ilyo.co.kr###comments
 aitimes.com###reply
@@ -129,6 +129,8 @@ khan.co.kr###reply
 kormedi.com###primary > div.cs-entry__wrap:first-child > div.cs-entry__container > div.cs-entry__content-wrap > div.entry-content-after:last-child > div.rp_content_wrap:nth-child(6)
 kormedi.com###primary > div.cs-entry__wrap:first-child > div.cs-entry__container > div.cs-entry__content-wrap > div.entry-content-after:last-child > div.rp_content_wrap:nth-child(7)
 dt.co.kr##.comment-wrap
+m.businesspost.co.kr###js-load > ul > li.js-load.active
+widedaily.com###comment
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -157,8 +159,8 @@ ilyo.co.kr###comments
 asiatoday.co.kr###font > div.cont_news_box3:nth-child(6)
 skyedaily.com###n_view2 > div.articlewrap:first-child > div.articlearea:nth-child(4) > div.articletext:nth-child(2) > div:last-child
 news.nate.com###snscmtcnt_bar
-v.daum.net###mArticle > div.head_view:first-child > div.util_wrap:last-child > a.btn_ttalk:first-child
-v.daum.net###kakaoContent > section.inner-main > div.main-content:nth-child(2) > div.ttalk_view:last-child
+v.daum.net##.btn_ttalk
+v.daum.net##.ttalk_view
 inews24.com##header.view:nth-child(5) > nav.view:last-child > aside:last-child > button.btn-comment:first-child
 inews24.com##main.view:nth-child(7) > container.view > section.view:first-child > form.talkplus:nth-child(10)
 hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.end-top:nth-child(8) > div.innerwrap:last-child > div.col-main > div.tool-bar:last-child
@@ -176,3 +178,6 @@ ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-c
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(5) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
 amn.kr###reader_view_skin4
 newsprime.co.kr###commentPane
+businesspost.co.kr##.postReply
+
+
