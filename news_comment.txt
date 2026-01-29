@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 4.9
+! Version: 5.0
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -29,9 +29,6 @@ m.hankookilbo.com##.comment-area
 imnews.imbc.com###commentBox
 yna.co.kr##div.wrapper:nth-child(2) > div.wrap-header22.hide-appview:nth-child(4) > div.nav-type12.fixed-navigation02 > div.option-zone:nth-child(4) > div.optionbox02 > button.btn-type001.cmt01:nth-child(3)
 yna.co.kr###articleWrap > div.keyword-zone:nth-child(2) > button.btn-type422.cmt01:last-child
-m.mt.co.kr###article > div.function:nth-child(3)
-m.mt.co.kr###wrap > button.mtg-comment-button-fixed:last-child
-m.mt.co.kr###article > div.mtg-comment
 m.businesspost.co.kr###detail > article.detailwrapper:nth-child(2) > section.postReply:last-child > div.repWrite:first-child
 itworld.co.kr###section_comment > div.comment.mt-0:first-child
 tokenpost.kr###viewPage > div.viewWrap:nth-child(2) > div.view_left_item > div.article_bottom_section:nth-child(4) > div.article_stamp_wrap:nth-child(4) > div.article_stamp_btns:last-child > div.stamp_item.stamp_comment.btn_stamp_comment:first-child
@@ -148,6 +145,33 @@ kyeongin.com##.comment-wrap
 koit.co.kr###comment
 mt.co.kr###articleTopFunc > div.func_icon_wrap > div.icon_item:nth-child(2)
 mt.co.kr###articleHdFunc > div.func_icon_wrap > div.icon_item:nth-child(2)
+dongponews.net###comment
+redian.org###comment
+ftoday.co.kr###comment
+betanews.net##.box.comment_area
+m.gamemeca.com###container > div > div > div.wrap > div.nAview:nth-child(3) > div.nAtop:nth-child(15)
+gamemeca.com##.gm_comment
+sisa-news.com###container > div.con_secondary:nth-child(2) > div > div.m_arv_002:first-child
+sisa-news.com###commentPane
+dentalarirang.com###reply
+mt.co.kr###articleComment
+incheonilbo.com###comment
+kihoilbo.co.kr###comment
+sentv.co.kr##.box.comment_area
+m.etoday.co.kr##.majnewsWrap.mboxcont
+spnews.co.kr###comment
+asiatime.co.kr##.reply_txt_area
+tokipul.net##div.gh-viewport:nth-child(2) > main.gh-main:nth-child(2) > div.gh-comments.gh-canvas:last-child
+##.strip-banner
+hdhy.co.kr###comment
+jbpresscenter.com###reply
+gasnews.com###comment
+gokorea.kr###comment
+m.ildaro.com###reply_src
+theindigo.co.kr###comments
+ablenews.co.kr###comment
+ziksir.com###comment
+greened.kr###reply
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -198,6 +222,9 @@ newsprime.co.kr###commentPane
 businesspost.co.kr##.postReply
 munhwa.com##.comment-wrap
 munhwa.com##.sticky-comment
+etoday.co.kr###rep_contWrap
+ildaro.com###reader_view_skin4
+
 
 
 
