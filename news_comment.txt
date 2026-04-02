@@ -1,10 +1,9 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 5.0
+! Version: 5.1
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
-m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_group:nth-child(2) > section.news_cnt_sec > div.set_inner > div.cmm_wrap:last-child
 hankyung.com###hk-comment-client
 joongang.co.kr##.comment_wrap
 joongang.co.kr##.btn_comment
@@ -68,13 +67,12 @@ v.daum.net###mArticle > div > div.head_view:first-child > div.util_wrap:last-chi
 v.daum.net##.ttalk_view
 m.news.zum.com###a_info_box > a.btn-view-comment.btn_comment:nth-child(2)
 chosun.com###comment
-m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_group:nth-child(2) > section.news_cnt_sec > div.set_inner > header.sec_head:first-child > div.news_cnt_info_wrap.type_name_list > div.news_write_info_group > div.news_control_group.right_btns.newbtnwrapper:last-child > div.control_item_frame:nth-child(5)
 mobile.newsis.com##section.content:nth-child(2) > div.btnGroup:nth-child(12)
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.interaction_bar.is_active:last-child > ul > li:last-child
 m.inews24.com###joynewsView > div.inews-view:nth-child(3) > button.inews-view.comment:nth-child(2)
 news1.kr###__next > div.safe_area:first-child > header.main-header:nth-child(2) > div.sticky-bar.border-bottom-1:last-child > div.container:first-child > nav.navbar.navbar-expand-lg.p-0 > div.container-fluid.gx-0 > section.d-sm-block.d-md-block.d-lg-none:last-child > button.btn-none.mr-20:nth-child(2)
 m.nocutnews.co.kr###reply
-m.ohmynews.com###article > div.article_header:first-child > div.buttons:last-child > div.button_left > a.btn_reply:nth-child(2)
+m.ohmynews.com##.btn_reply
 m.ohmynews.com###ctl00_dvWrap > div.sticky_bar.clearfx:first-child > ul.state.clearfx:last-child > li:nth-child(2)
 m.skyedaily.com##div.mainfirstlist:nth-child(17) > div:nth-child(4)
 m.skyedaily.com##div.mainfirstlist:nth-child(22) > div:nth-child(4)
@@ -85,6 +83,9 @@ news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-ch
 news.jtbc.co.kr##.comment.comment--NEWS
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(3) > div > div > div.e1ecreks0.MuiBox-root.my-15wfs9c:nth-child(2) > div.MuiBox-root.my-sg6rbe > div.e1ecreks0.MuiBox-root.my-10zyal1 > div.e1ecreks0.MuiBox-root.my-1hxzilu:last-child > div.e1ecreks0.MuiBox-root.my-1unr3vv:last-child > div.e1ecreks0.MuiBox-root.my-10702ep > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-i7nsei:first-child
 news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(3) > div > div > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(4) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div:last-child > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(3) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg:last-child > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div:last-child > div.e1ecreks0.MuiBox-root.my-15wfs9c:first-child > div.MuiBox-root.my-sg6rbe > div.e1ecreks0.MuiBox-root.my-1bm2yfo > div.e1ecreks0.MuiBox-root.my-1hxzilu:last-child > div.e1ecreks0.MuiBox-root.my-1unr3vv:last-child > div.print-hide.e1ecreks0.MuiBox-root.my-10702ep:last-child > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-i7nsei:first-child
+news.jtbc.co.kr###wrapper > div.content-minHeighter.MuiBox-root.my-tt5l69:nth-child(4) > div > div:last-child > div.is-pinned.e1ecreks0.MuiBox-root.my-a7tkdr:nth-child(3) > div.TitleHeader-body.e1ecreks0.MuiBox-root.my-ohmrls > div.MuiBox-root.my-15tnc0b > div.e1ecreks0.MuiBox-root.my-1qkc6oe > div.e1ecreks0.MuiBox-root.my-yqbv3z:last-child > div.e1ecreks0.MuiBox-root.my-1664qpg:last-child > button.MuiIconButton-root.MuiIconButton-variantPlain.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.e18h4re70.my-1samdud:first-child
 m.khan.co.kr###header > div.wrap_art_top_header > div.wrap_util:nth-child(9) > div.box_menu_right:last-child > a.link_corp.btn_reply.topbarRightMenu:first-child
 m.amn.kr###reply_src > div:last-child
 m.mk.co.kr##div.wrapper.page_down:nth-child(5) > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:last-child > div.control_item_frame:nth-child(6)
@@ -107,12 +108,6 @@ econmingle.com##.comments-area
 seoulwire.com###comment
 hani.co.kr###__next > div.Layout_container__wF_eP > div.Layout_wrapper__r6LQ7:nth-child(2) > div.ArticleToolbarMobile_header__ZhNbT:nth-child(7) > div > ul.ArticleToolbarMobile_list__8Pap5 > li.ArticleToolbarMobile_item__8zIUK:first-child
 hani.co.kr###__next > div.Layout_container__wF_eP > div.Layout_wrapper__r6LQ7:nth-child(2) > div.ArticleToolbarMobile_header__ZhNbT:nth-child(3) > div > ul.ArticleToolbarMobile_list__8Pap5 > li.ArticleToolbarMobile_item__8zIUK:first-child
-m.mk.co.kr###container > section.contents:nth-child(2) > div.news_detail_body_group:nth-child(2) > section.news_cnt_sec > div.set_inner > header.sec_head:first-child > div.news_cnt_info_wrap.type_name_list > div.news_write_info_group > div.news_control_group.right_btns.newbtnwrapper:last-child > div.control_item_frame:nth-child(4)
-m.mk.co.kr##div.wrapper.page_down:nth-child(5) > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:last-child > div.control_item_frame:nth-child(5)
-m.mk.co.kr##div.wrapper.page_down:last-child > section.view_tools_wrap:nth-child(2) > div.set_inner > div.news_control_group:nth-child(2) > div.control_item_frame:nth-child(4)
-m.hankookilbo.com##.btn-goto-comment
-m.hankookilbo.com##.icon-btn-comment
-m.hankookilbo.com##.btn-comment
 safetimes.co.kr###comment
 m.munhwa.com##.vh_btn.reply_btn
 m.munhwa.com##.component.card.component_reply
@@ -140,6 +135,7 @@ m.mbn.co.kr##.comment_area
 horsebiz.co.kr###comment
 news.mt.co.kr##.mtgCommentFrame-main
 mk.co.kr##.cmm_wrap
+mk.co.kr##.reple
 biz.sbs.co.kr##.md_commt_write_w
 kyeongin.com##.comment-wrap
 koit.co.kr###comment
@@ -172,6 +168,30 @@ theindigo.co.kr###comments
 ablenews.co.kr###comment
 ziksir.com###comment
 greened.kr###reply
+m.ceoscoredaily.com##.comment_form_wrap
+mnews.sbs.co.kr##.eh_vlinfo_view
+mnews.sbs.co.kr##.b_reply
+hankookilbo.com##.no-print.gtm-article-comment
+hankookilbo.com##.inline-flex.items-center
+m.sedaily.com##.card.comment-wrap.skin-mb
+iwjnews.com###reply
+jjan.kr###wrap > div.section:nth-child(4) > div.article_wrap.article > div.related_article_container:last-child
+kyeonggi.com##.reply_container
+econovill.com###reply
+bulkyo21.com###reply
+mk.co.kr##.reple
+ceoscoredaily.com##.comment_form_wrap
+m.ceoscoredaily.com##.comment_form_wrap
+startuptoday.co.kr###comment
+koreabizwire.com###comments
+weekly.donga.com##.reply_wrap
+securityfact.co.kr##.news_comment
+startupn.kr###comment
+kpenews.com###divReplyContainer
+sisain.co.kr###comment
+hsnews.co.kr###comment
+storyofseoul.com###comment
+biz.chosun.com###fusion-app > div.article:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-none.width--100.box--pad-top-md.box--bg-undefined.box--hidden-lg.box--hidden-md:nth-child(19)
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -180,33 +200,27 @@ greened.kr###reply
 news.nate.com###ifr_reple
 news.nate.com###module_ssul
 news.zum.com###zca_cmnt_module
-mk.co.kr###container > section.contents:last-child > div.news_detail_body_group:nth-child(3) > section.news_cnt_sec > div.min_inner:first-child > div.cmm_wrap:last-child
 pressian.com###container > div.inner > div.article_view:nth-child(6) > div.section.pr10:last-child > div.comment_wrap:nth-child(21)
 chosun.com###div_comment
-joongang.co.kr###container > div.sticky_menu.re.default.fixed:first-child > div.body:first-child > button.btn_comment:nth-child(3)
-donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.sub_inner:last-child > section.comment_ui:nth-child(6)
-news.mt.co.kr###view_wrapc01-scroll-in > div.vc_top:first-child > div.info > div.fnc:last-child > ul.group > li.bundle:last-child > button.mtg-comment-button
-news.mt.co.kr###view_wrapc01-scroll-in > div.mtg-comment:nth-child
+joongang.co.kr##.btn_comment
+donga.com##.comment_ui
+news.mt.co.kr##.mtg-comment-button
+news.mt.co.kr##.mtg-comment
 inews24.com###comment-container
-inews24.com##main.view:nth-child(8) > container.view > section.view:first-child > form.talkplus:nth-child(11) > ul.talkplus:last-child
-inews24.com##main.view:nth-child(8) > container.view > section.view:first-child > form.talkplus:nth-child(11) > h4.talkplus:nth-child(3)
+inews24.com##.talkplus
 businesspost.co.kr###center-box > div.foot_box:last-child > div.inner2
-medicaltimes.com###container > div.viewWrap.clearfix:last-child > section.viewContWrap:first-child > div.commentWrap:last-child
-g-enews.com##div.vcon:nth-child(12) > div.vcon_in:last-child > div.v_lt:nth-child(2) > div.vincon1 > div.mi_lt:first-child > div.liveReClsPosi:nth-child(3)
-news.tf.co.kr###sudaComment2 > div.tfReply:first-child
-starnewskorea.com###content > div.fbox.cw651:first-child > div.thum_article > div.article_area > div.comment:nth-child(22)
-hankookilbo.com##div.wrap.imp-end:nth-child(14) > div.container.end-uni:first-child > div.comment-area:nth-child(10) > div.inner
+medicaltimes.com##.commentWrap
+g-enews.com##.liveReClsPosi
+news.tf.co.kr##.tfReply
+starnewskorea.com##.comment
 ilyo.co.kr###comments
 asiatoday.co.kr###font > div.cont_news_box3:nth-child(6)
 skyedaily.com###n_view2 > div.articlewrap:first-child > div.articlearea:nth-child(4) > div.articletext:nth-child(2) > div:last-child
 news.nate.com###snscmtcnt_bar
 v.daum.net##.btn_ttalk
 v.daum.net##.ttalk_view
-inews24.com##header.view:nth-child(5) > nav.view:last-child > aside:last-child > button.btn-comment:first-child
-inews24.com##main.view:nth-child(7) > container.view > section.view:first-child > form.talkplus:nth-child(10)
-hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.end-top:nth-child(8) > div.innerwrap:last-child > div.col-main > div.tool-bar:last-child
-hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.end-body:nth-child(9) > div.innerwrap > section.side-tool-box-pnl:nth-child(5) > ul.side-tool-grp:first-child > li.item.type2:last-child
-hankookilbo.com##div.wrap.imp-end:nth-child(13) > div.container.end-uni > div.comment-area:nth-child(10) > div.inner
+inews24.com##.btn-comment
+inews24.com##.talkplus
 nocutnews.co.kr###reply > a.reply_b
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###article > div.article_header:first-child > div.buttons:last-child > div.button_left > a.btn_reply:nth-child(2)
@@ -217,6 +231,7 @@ ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child
 ohmynews.com###news_wrap > div.gnb-wrap.s-news.s-atc.scroll-nav:nth-child(2) > div.lnb-wrap:last-child > div.gnb-article-wrap.clearfx:last-child > div.right-box:last-child > ul.state-list:last-child > li:nth-child(2) > a.reply
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(4) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(5) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
+ohmynews.com###content_wrap
 amn.kr###reader_view_skin4
 newsprime.co.kr###commentPane
 businesspost.co.kr##.postReply
@@ -224,8 +239,9 @@ munhwa.com##.comment-wrap
 munhwa.com##.sticky-comment
 etoday.co.kr###rep_contWrap
 ildaro.com###reader_view_skin4
-
-
+ceoscoredaily.com##.comment_form_wrap
+news.sbs.co.kr##.md-comment
+sedaily.com##.card.comment-wrap.skin-mb
 
 
 
