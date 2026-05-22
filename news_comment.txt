@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 5.1
+! Version: 5.2
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -19,7 +19,7 @@ n.news.naver.com###commentFontGroup > div.media_end_head_info_variety_cmtcount._
 m.news.nate.com###ifr_reple
 m.news.nate.com###module_ssul
 m.news.zum.com###zca_cmnt_module
-m.pressian.com###container > div.article_view > div.comment_wrap:nth-child(18)
+m.pressian.com##.comment_wrap
 m.inews24.com###comment-container
 m.inews24.com##.talkplus
 digitaltoday.co.kr###comment
@@ -31,7 +31,7 @@ yna.co.kr###articleWrap > div.keyword-zone:nth-child(2) > button.btn-type422.cmt
 m.businesspost.co.kr###detail > article.detailwrapper:nth-child(2) > section.postReply:last-child > div.repWrite:first-child
 itworld.co.kr###section_comment > div.comment.mt-0:first-child
 tokenpost.kr###viewPage > div.viewWrap:nth-child(2) > div.view_left_item > div.article_bottom_section:nth-child(4) > div.article_stamp_wrap:nth-child(4) > div.article_stamp_btns:last-child > div.stamp_item.stamp_comment.btn_stamp_comment:first-child
-tokenpost.kr###section_comment > div.section_comment_wrap
+tokenpost.kr###.section_comment_wrap
 tokenpost.kr###viewLocation > div.view_title_bottom:last-child > div.view_number_bottom_right:last-child > div.view_number_bottom_right_comment.btnFocusComment:first-child
 hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(3) > div.ArticleDetail_footerComment__aOVr_:last-child
 it.chosun.com###comment
@@ -39,35 +39,33 @@ asiatime.co.kr##div.container:nth-child(8) > div.list_contents_container.article
 m.starnewskorea.com###article > div.function:nth-child(2) > div.area:last-child > ul.sc_bx3:first-child > li.bundle:first-child
 m.starnewskorea.com##div.right-floating-area:nth-child(3) > div.mtg-comment-button-fixed:first-child
 news.kbs.co.kr###reply
-yozm.wishket.com##div.layout:nth-child(8) > div.container-wrapper:nth-child(7) > div.content-container-wrapper:first-child > div.content-container:first-child > div.comment-area:last-child
-m.g-enews.com##div.mwrap:nth-child(4) > div.liveReClsPosi:nth-child(8)
+yozm.wishket.com##.comment-area
+m.g-enews.com##.liveReClsPosi
 cm.asiae.co.kr###container > div.section_wrap:first-child > div.section_main:first-child > div.view_article > div.as_mj_news:nth-child(5)
-m.starnewskorea.com###content > section.bxcn4:nth-child(4) > div.comment:nth-child(2)
+m.starnewskorea.com##.comment
 sisajournal-e.com###comment
-medicaltimes.com###container > section.replyWrap:last-child
+medicaltimes.com##.replyWrap
 fortunekorea.co.kr###comment
 m.tf.co.kr###socailBox > li.sBtn_reply:last-child
 apple-economy.com###reply
 mydaily.co.kr###container > div.inner:nth-child(4) > div.article_head:nth-child(2) > div.util_box:last-child > div.tools:nth-child(2) > ul.btns > li.cmt:first-child
-mydaily.co.kr###container > div.inner:nth-child(4) > div.section:nth-child(3) > div.comment_form_wrap:nth-child(6)
-mydaily.co.kr###container > div.inner:nth-child(7) > div.section:nth-child(4) > div.comment_form_wrap:nth-child(12)
+mydaily.co.kr##.comment_form_wrap
 kr.investing.com###__next > div.md\:relative.md\:bg-white:last-child > div.relative.flex:nth-child(2) > div.grid.flex-1.grid-cols-1.px-4.pt-5.font-sans-v2.text-\[\#232526\].antialiased.xl\:container.sm\:px-6.md\:grid-cols-\[1fr_72px\].md\:gap-6.md\:px-7.md\:pt-10.md2\:grid-cols-\[1fr_420px\].md2\:gap-8.md2\:px-8.xl\:mx-auto.xl\:gap-10.xl\:px-10:nth-child(2) > div.min-w-0:first-child > div:first-child > div:first-child > div.relative.flex.flex-col:first-child > div.mb-3.cursor-text.rounded.border.border-\[\#D9DCDF\].p-3\.5.shadow-commentBox:nth-child(15)
 womancs.co.kr###comment
 mediatoday.co.kr###comment
 hani.co.kr###content > div:first-child > div.ArticleDetail_viewWrap__Npj0R > div:nth-child(2) > div.ArticleDetail_footerComment__aOVr_:last-child
 m.ilyo.co.kr###comments
 aitimes.com###reply
-mydaily.co.kr###container > div.inner:nth-child(4) > div.section:nth-child(3) > div.comment_form_wrap:nth-child(7)
-mobile.newsis.com##section.content:nth-child(2) > div.btnGroup:nth-child(13)
+mydaily.co.kr##.comment_form_wrap
 m.asiatoday.co.kr###comment_wrap
 weekly.chosun.com###comment
 m.skyedaily.com##div.mainfirstlist:nth-child(18)
 m.news.nate.com###contents > div.responsive_wrap:nth-child(3) > section.rwd_left:first-child > div.news_view > header:nth-child(2) > div.view_tools_wrap:last-child > ul.cmt_count:first-child > li:first-child > a
-v.daum.net###mArticle > div > div.head_view:first-child > div.util_wrap:last-child > a.btn_ttalk:first-child
+v.daum.net##.btn_ttalk
 v.daum.net##.ttalk_view
-m.news.zum.com###a_info_box > a.btn-view-comment.btn_comment:nth-child(2)
+m.news.zum.com##.btn-view-comment.btn_comment
 chosun.com###comment
-mobile.newsis.com##section.content:nth-child(2) > div.btnGroup:nth-child(12)
+mobile.newsis.com##.btnGroup
 donga.com###contents > div.view_body:nth-child(3) > div.inner > div.main_view:nth-child(2) > div.interaction_bar.is_active:last-child > ul > li:last-child
 m.inews24.com###joynewsView > div.inews-view:nth-child(3) > button.inews-view.comment:nth-child(2)
 news1.kr###__next > div.safe_area:first-child > header.main-header:nth-child(2) > div.sticky-bar.border-bottom-1:last-child > div.container:first-child > nav.navbar.navbar-expand-lg.p-0 > div.container-fluid.gx-0 > section.d-sm-block.d-md-block.d-lg-none:last-child > button.btn-none.mr-20:nth-child(2)
@@ -157,7 +155,7 @@ sentv.co.kr##.box.comment_area
 m.etoday.co.kr##.majnewsWrap.mboxcont
 spnews.co.kr###comment
 asiatime.co.kr##.reply_txt_area
-tokipul.net##div.gh-viewport:nth-child(2) > main.gh-main:nth-child(2) > div.gh-comments.gh-canvas:last-child
+tokipul.net##.gh-comments.gh-canvas
 ##.strip-banner
 hdhy.co.kr###comment
 jbpresscenter.com###reply
@@ -192,6 +190,10 @@ sisain.co.kr###comment
 hsnews.co.kr###comment
 storyofseoul.com###comment
 biz.chosun.com###fusion-app > div.article:first-child > div.layout--bg:nth-child(2) > div.layout-main.layout-main-none.\|.grid.grid__container.grid__container-centered > section.grid.grid__col--lg-12.grid__col--md-12.grid__col--sm-12.flex--justify-center:last-child > article.layout__article-col.layout__article-main.\|.grid__col--lg-8.grid__col--md-12.grid__col--sm-12:first-child > div.flex-chain-wrapper.sm.\|.box--margin-none.width--100.box--pad-top-md.box--bg-undefined.box--hidden-lg.box--hidden-md:nth-child(19)
+gimhaenews.co.kr###comment
+tleaves.co.kr###comment
+topstarnews.net###comment
+freezinenews.com###comment
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
