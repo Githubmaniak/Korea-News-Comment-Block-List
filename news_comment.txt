@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 5.3
+! Version: 5.4
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -199,6 +199,18 @@ kkongjinews.com###coment_area
 motorcycle-story.com###viewcomment
 newswell.co.kr###reply
 kr.aving.net###comment
+mnews.sbs.co.kr##.efoot_comment_w
+ajunews.com##.view_bottom_cont
+wikyung.com##.detail_reply
+todayeconomic.com##.m_arv_002
+todayeconomic.com###replyCon
+mhns.co.kr###comment
+fetv.co.kr###comment
+m.kpinews.kr###lv-container
+hidomin.com###comment
+bonghwanews.com###comment
+theonetv.kr###comment
+ibrandnews.com###comment
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
@@ -249,6 +261,7 @@ ildaro.com###reader_view_skin4
 ceoscoredaily.com##.comment_form_wrap
 news.sbs.co.kr##.md-comment
 sedaily.com##.card.comment-wrap.skin-mb
+kpinews.kr###lv-container
 
 
 
