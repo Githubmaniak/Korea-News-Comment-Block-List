@@ -1,6 +1,6 @@
 [AdGuard]
 ! Title: Korea News Comment Blocklist
-! Version: 5.６
+! Version: 5.7
 ! Homepage: https://github.com/Githubmaniak/Korea-News-Comment-Block-List
 
 ! Mobile
@@ -224,16 +224,27 @@ dongascience.com###articleSection > div.md\:flex.md\:gap-4 > div.flex.flex-col.g
 datanet.co.kr###reply
 koya-culture.com##.m_arv_002
 sejongking.co.kr###comment
-
+aitimes.com###comment
+kado.net##.article-veiw-reply.text-left
+m.kwnews.co.kr###DEV_COMMENT_COMPONENT
+latimes.kr###comment
+newstheai.com###comment
+kwnews.co.kr###DEV_COMMENT_COMPONENT
+kmjournal.net###comment
+newscj.com###comment
+huffingtonpost.kr##.comment_box
+ilyoseoul.co.kr###comment
+newstomato.com###ctl01_ContentPlaceHolder1_MobileNewsView_UpdatePanel1
+sdgnews.net###comment
+pttimes.com###reply
 ||livere.com^
 ||disqus.com^
 ||reply.nocutnews.co.kr^
-
 ! Desktop
 news.nate.com###ifr_reple
 news.nate.com###module_ssul
 news.zum.com###zca_cmnt_module
-pressian.com###container > div.inner > div.article_view:nth-child(6) > div.section.pr10:last-child > div.comment_wrap:nth-child(21)
+pressian.com##.comment_wrap
 chosun.com###div_comment
 joongang.co.kr##.btn_comment
 donga.com##.comment_ui
@@ -247,21 +258,22 @@ g-enews.com##.liveReClsPosi
 news.tf.co.kr##.tfReply
 starnewskorea.com##.comment
 ilyo.co.kr###comments
-asiatoday.co.kr###font > div.cont_news_box3:nth-child(6)
+asiatoday.co.kr##.cont_news_box3
 skyedaily.com###n_view2 > div.articlewrap:first-child > div.articlearea:nth-child(4) > div.articletext:nth-child(2) > div:last-child
 news.nate.com###snscmtcnt_bar
 v.daum.net##.btn_ttalk
 v.daum.net##.ttalk_view
+v.daum.net##.comment_view
 inews24.com##.btn-comment
 inews24.com##.talkplus
-nocutnews.co.kr###reply > a.reply_b
+nocutnews.co.kr##.reply_b
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###article > div.article_header:first-child > div.buttons:last-child > div.button_left > a.btn_reply:nth-child(2)
 ohmynews.com###ctl00_dvWrap > div.sticky_bar.clearfx:first-child > ul.state.clearfx:last-child > li:nth-child(2) > a.btn_reply
 ohmynews.com###article > div.article_btns:nth-child(3) > div.arc-bottom-wrap > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(3) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(4) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
-ohmynews.com###news_wrap > div.gnb-wrap.s-news.s-atc.scroll-nav:nth-child(2) > div.lnb-wrap:last-child > div.gnb-article-wrap.clearfx:last-child > div.right-box:last-child > ul.state-list:last-child > li:nth-child(2) > a.reply
+ohmynews.com##.reply
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newstitlwrap:nth-child(4) > div.atc_group:last-child > div.f-box:last-child > div.box-s > a:last-child
 ohmynews.com###content_wrap > div.content:nth-child(10) > div.newswrap:nth-child(5) > div.news_body:first-child > div.arc-bottom-wrap:nth-child(6) > div.arc-btns-wrap:first-child > div.btn_box > a:nth-child(2)
 ohmynews.com###content_wrap
@@ -276,6 +288,9 @@ ceoscoredaily.com##.comment_form_wrap
 news.sbs.co.kr##.md-comment
 sedaily.com##.card.comment-wrap.skin-mb
 kpinews.kr###lv-container
-
-
+newstomato.com##.wh_cmt_input
+newstomato.com##.wh_cmt_header
+newstomato.com##.wh_list_total_together
+globale.co.kr###comment
+financialreview.co.kr###reply
 
